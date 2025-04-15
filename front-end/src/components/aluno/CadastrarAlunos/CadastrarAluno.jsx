@@ -37,7 +37,7 @@ function CadastrarAluno({ onCadastro }) {
     <div className={styles.container}>
       <h2>Cadastrar Aluno</h2>
       <form onSubmit={handleSubmit} className={styles.form}>
-        
+
         <label htmlFor="matricula">Matrícula:</label>
         <input
           id="matricula"
